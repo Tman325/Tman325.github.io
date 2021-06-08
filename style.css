@@ -1,0 +1,134 @@
+
+
+/*
+CSS er delen av programmet som er enklest å forklare men som jeg fortsatt har mest å lære av. 
+CSS lar deg manipulere HTML elementer med bruk av "Class" navnene deres. Du kan fargelegge, 
+sette avstand, plassering og til og med lage animasjoner til elementene.
+*/
+
+
+body {
+    background: transparent;
+    
+  }
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 5px;
+  background: #78258de8;
+  margin: 5px 0;
+  text-align: center;
+}
+  h1 {
+    position: relative;
+    text-align: center;
+    color: #cecece;
+    font-size: 50px;
+    font-family: "Cormorant Garamond", serif;
+  }
+  
+  p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 18px;
+    color: #cecece;
+    ;
+  }
+
+  .frame {
+    width: 90%;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .box{
+    width: 100px;
+        display: inline-block;
+        padding: 15px;
+        text-align: center;
+        color: #cecece;
+  }
+
+  .boxs{
+    width: 100px;
+        display: inline-block;
+        padding: 15px;
+        text-align: center;
+        color: #cecece;
+        pointer-events: none;
+  }
+
+  input {
+    margin: 20px;
+  }
+  .btn_r {
+    width: 130px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  
+.btn_r {
+  background: #000000;
+  border: none;
+  z-index: 1;
+}
+
+.btn_d {
+  width: 100px;
+  height: 30px;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+}
+
+.btn_d {
+background: #000000;
+border: none;
+z-index: 1;
+}
+
+.btn:active {
+  top: 2px;
+}
+
+.scrollable {
+  height: 165px;
+  overflow-y: auto;
+}
+
+html { 
+  background: url(img/Background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+
+

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>D&D Randomizer</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+    <header>
+      <h1>D&D Randomizer</h1>
+    </header>
+
+    
+   <section class="container">
+     <form id="roll">
+       </div>
+         <div class="frame">
+
+         <div class="box">
+         <section class="Class_s">
+          <lable>Class</lable>
+          <select id="Class_s">
+          <option value="0">Any</option>
+          <option value="1">Artificer</option>
+          <option value="2">Barbarian</option>
+          <option value="3">Bard</option>
+          <option value="4">Blood Hunter</option>
+          <option value="5">Cleric</option>
+          <option value="6">Druid</option>
+          <option value="7">Fighter</option>
+          <option value="8">Monk</option>
+          <option value="9">Mystic</option>
+          <option value="10">Paladin</option>
+          <option value="11">Ranger</option>
+          <option value="12">Rougue</option>
+          <option value="13">Sorcerer</option>
+          <option value="14">Warlock</option>
+          <option value="15">Wizard</option>
+          </select>
+          
+        <section class ="Add_sub">
+         <section class ="All_sub">
+          <section class="Artificer_sub">
+          <lable>Artificer subclass</lable>
+          <select id="Artificer_sub">
+            <option value="0">Any</option> 
+          <option value="1">Alchemist</option>
+          <option value="2">Armorer</option>
+          <option value="3">Artillerist</option>
+          <option value="4">Battle Smith</option>
+          </select>
+          </section>
+          
+          <section class="Barbarian_sub">
+            <lable>Barbarian subclass</lable>
+            <select id="Barbarian_sub">
+            <option value="0">Any</option>
+            <option value="1">Path of the Ancestral Guardian</option>
+            <option value="2">Path of the Battlerager</option>
+            <option value="3">Path of the Beast</option>
+            <option value="4">Path of the Berserker</option>
+            <option value="">Path of the Storm Herald</option>
+            <option value="">Path of the Totem Warrior</option>
+            <option value="">Path of Wild Magic</option>
+            <option value="">Path of the Zealot</option>
+            </select>
+          </section>
+
+            <section class="Bard_sub">
+              <lable>Bard subclass</lable>
+              <select id="Bard_sub">
+              <option value="0">Any</option>
+              <option value="1">College of Creation</option>
+              <option value="2">College of Eloquence</option>
+              <option value="3">College of Glamour</option>
+              <option value="4">College of Lore</option>
+              <option value="5">College of Spirits</option>
+              <option value="6">College of Swords</option>
+              <option value="7">College of Valor</option>
+              <option value="8">College of Whispers</option>
+              </select>
+            </section>
+            
+              <section class="Blood_Hunter_sub">
+                <lable>Blood Hunter subclass</lable>
+                <select id="Blood_Hunter_sub">
+                <option value="0">Any</option>
+                <option value="1">Order of the Ghostslayer</option>
+                <option value="2">Order of the Lycan</option>
+                <option value="3">Order of the Mutant</option>
+                <option value="4">Order of the Profane Soul</option>
+                </select>
+              </section>
+                
+                <section class="Cleric_sub">
+                  <lable>Cleric subclass</lable>
+                  <select id="Cleric_sub">
+                  <option value="0">Any</option>
+                  <option value="1">Arcana Domain</option>
+                  <option value="2">Death Domain</option>
+                  <option value="3">Forge Domain</option>
+                  <option value="4">Grave Domain</option>
+                  <option value="5">Knowledge Domain</option>
+                  <option value="6">Life Domain</option>
+                  <option value="7">Light Domain</option>
+                  <option value="8">Nature Domain</option>
+                  <option value="9">Order Domain</option>
+                  <option value="10">Peace Domain</option>
+                  <option value="11">Tempest Domain</option>
+                  <option value="12">Trickery Domain</option>
+                  <option value="13">Twilight Domain</option>
+                  <option value="14">War Domain</option>
+                  </select>
+                </section>
+
+                  <section class="Druid_sub">
+                    <lable>Druid subclass</lable>
+                    <select id="Druid_sub">
+                    <option value="0">Any</option>
+                    <option value="1">Circle of Dreams</option>
+                    <option value="2">Circle of the Land</option>
+                    <option value="3">Circle of the Moon</option>
+                    <option value="4">Circle of the Shepherd</option>
+                    <option value="5">Circle of Spores</option>
+                    <option value="6">Circle of Stars</option>
+                    <option value="7">Circle of Wildfire</option>
+                    </select>
+                  </section>
+
+                    <section class="Fighter_sub">
+                      <lable>Fighter subclass</lable>
+                      <select id="Fighter_sub">
+                      <option value="0">Any</option>
+                      <option value="1">Arcane Archer</option>
+                      <option value="2">Banneret</option>
+                      <option value="3">Battle Master</option>
+                      <option value="4">Cavalier</option>
+                      <option value="5">Champion</option>
+                      <option value="6">Echo Knight</option>
+                      <option value="7">Eldritch Knight</option>
+                      <option value="8">Psi Warrior</option>
+                      <option value="9">Rune Knight</option>
+                      <option value="10">Samurai</option>
+                      </select>
+                    </section>
+
+                      <section class="Monk_sub">
+                        <lable>Monk subclass</lable>
+                        <select id="Monk_sub">
+                        <option value="0">Any</option>
+                        <option value="1">Way of Mercy</option>
+                        <option value="2">Way of the Astral Self</option>
+                        <option value="3">Way of the Drunken Master</option>
+                        <option value="4">Way of the Four Elements</option>
+                        <option value="5">Way of the Kensei</option>
+                        <option value="6">Way of the Long Death</option>
+                        <option value="7">Way of the Open Hand</option>
+                        <option value="8">Way of Shadow</option>
+                        <option value="9">Way of the Sun Soul</option>
+                        </select>
+                      </section>
+
+                        <section class="Mystic_sub">
+                          <lable>Mystic subclass</lable>
+                          <select id="Mystic_sub">
+                          <option value="0">Any</option>
+                          <option value="1">Avatar</option>
+                          <option value="2">Awakened</option>
+                          <option value="3">The Immortal</option>
+                          <option value="4">Nomad</option>
+                          <option value="5">Soul Knife</option>
+                          <option value="6">Wu Jen</option>
+                          </select>
+                        </section>
+
+                          <section class="Paladin_sub">
+                            <lable>Paladin subclass</lable>
+                            <select id="Paladin_sub">
+                            <option value="0">Any</option>
+                            <option value="1">Oath of the Ancients</option>
+                            <option value="2">Oath of Conquest</option>
+                            <option value="3">Oath of the Crown</option>
+                            <option value="4">Oath of Devotion</option>
+                            <option value="5">Oath of Glory</option>
+                            <option value="6">Oath of Redemption</option>
+                            <option value="7">Oath of Vengeance</option>
+                            <option value="8">Oath of the Watchers</option>
+                            <option value="9">Oathbreaker</option>
+                            </select>
+                          </section>
+
+                            <section class="Ranger_sub">
+                              <lable>Ranger subclass</lable>
+                              <select id="Ranger_sub">
+                              <option value="0">Any</option>
+                              <option value="1">Beast Master Conclave</option>
+                              <option value="2">Fey Wanderer</option>
+                              <option value="3">Gloom Stalker Conclave</option>
+                              <option value="4">Horizon Walker Conclave</option>
+                              <option value="5">Hunter Conclave</option>
+                              <option value="6">Monster Slayer Conclave</option>
+                              <option value="7">Swarmkeeper</option>
+                              </select>
+                            </section>
+
+                              <section class="Rougue_sub">
+                                <lable>Rougue subclass</lable>
+                                <select id="Rougue_sub">
+                                <option value="0">Any</option>
+                                <option value="1">Arcane Trickster</option>
+                                <option value="2">Assassin</option>
+                                <option value="3">Inquisitive</option>
+                                <option value="4">Mastermind</option>
+                                <option value="5">Phantom</option>
+                                <option value="6">Scout</option>
+                                <option value="7">Soulknife</option>
+                                <option value="8">Swashbuckler</option>
+                                <option value="9">Thief</option>
+                                </select>
+                              </section>
+
+                                <section class="Sorcerer_sub">
+                                  <lable>Sorcerer subclass</lable>
+                                  <select id="Sorcerer_sub">
+                                  <option value="0">Any</option>
+                                  <option value="1">Aberrant Mind</option>
+                                  <option value="2">Clockwork Soul</option>
+                                  <option value="3">Draconic Bloodline</option>
+                                  <option value="4">Divine Soul</option>
+                                  <option value="5">Shadow Magic</option>
+                                  <option value="6">Storm Sorcery</option>
+                                  <option value="7">Wild Magic</option>
+                                  </select>
+                                </section>
+
+                                  <section class="Warlock_sub">
+                                    <lable>Warlock subclass</lable>
+                                    <select id="Warlock_sub">
+                                    <option value="0">Any</option>
+                                    <option value="1">Archfey</option>
+                                    <option value="2">Celestial</option>
+                                    <option value="3">Fathomless</option>
+                                    <option value="4">Fiend</option>
+                                    <option value="5">The Genie</option>
+                                    <option value="6">Great Old One</option>
+                                    <option value="7">Hexblade</option>
+                                    <option value="8">Undying</option>
+                                    </select>
+                                  </section>
+
+                                    <section class="Wizard_sub">
+                                      <lable>Wizard subclass</lable>
+                                      <select id="Wizard_sub">
+                                      <option value="0">Any</option>
+                                      <option value="1">School of Abjuration</option>
+                                      <option value="2">School of Bladesinging</option>
+                                      <option value="3">School of Chronurgy</option>
+                                      <option value="4">School of Conjuration</option>
+                                      <option value="5">School of Divination</option>
+                                      <option value="6">School of Enchantment</option>
+                                      <option value="7">School of Evocation</option>
+                                      <option value="8">School of Graviturgy</option>
+                                      <option value="9">School of Illusion</option>
+                                      <option value="10">School of Necromancy</option>
+                                      <option value="11">Order of Scribes</option>
+                                      <option value="12">School of Transmutation</option>
+                                      <option value="13">School of War Magic</option>
+                                      </select>
+                                    </section>
+         </section>
+        </section>
+        </section>
+        </div>
+
+        <div class="boxs">
+        </div>
+
+        <div class="box">
+        <section class="Race_s">
+          <lable>Race</lable>
+          <select id="Race_s">
+          <option value="0">Any</option>
+          <option value="1">Aarakocra</option>
+          <option value="2">Aasimar</option>
+          <option value="3">Bugbear</option>
+          <option value="4">Centaur</option>
+          <option value="5">Changeling</option>
+          <option value="6">Dragonborn</option>
+          <option value="7">Dwarf</option>
+          <option value="8">Elf</option>
+          <option value="9">Firbolg</option>
+          <option value="10">Genasi</option>
+          <option value="11">Gith</option>
+          <option value="12">Gnome</option>
+          <option value="13">Goblin</option>
+          <option value="14">Goliath</option>
+          <option value="15">Grung</option>
+          <option value="16">Half-Elf</option>
+          <option value="17">Half-Orc</option>
+          <option value="18">Halfling</option>
+          <option value="19">Hobgoblin</option>
+          <option value="20">Human</option>
+          <option value="21">Kenku</option>
+          <option value="22">Kobold</option>
+          <option value="23">Lizardfolk</option>
+          <option value="24">Locathah</option>
+          <option value="25">Minotaur</option>
+          <option value="26">Orc</option>
+          <option value="27">Shifter</option>
+          <option value="28">Tabaxi</option>
+          <option value="29">Tiefling</option>
+          <option value="30">Tortle</option>
+          <option value="31">Triton</option>
+          <option value="32">Warforged</option>
+          <option value="33">Yuan-Ti Pureblood</option>
+          </select>
+          
+          <section class="Add_subR">
+            <section class="Fill"></section>
+         <section class="All_subR">
+          <section class="Aasimar_subR">
+          <lable>Aasimar subrace</lable>
+          <select id="Aasimar_subR">
+          <option value="0">Maybe</option>
+          <option value="1">Any</option>
+          <option value="2">None</option>
+          <option>======</option>
+          <option value="3">Protector</option>
+          <option value="4">Scourge</option>
+          <option value="5">Fallen</option>
+          </select>
+         </section>
+
+         <section class="Dragonborn_R">
+          <lable>Dragonborn color</lable>
+          <select id="Dragonborn_R">
+          <option value="0">Any</option>
+          <option>======</option>
+          <option value="1">Black</option>
+          <option value="2">Blue</option>
+          <option value="3">Brass</option>
+          <option value="4">Bronze</option>
+          <option value="5">Copper</option>
+          <option value="6">Gold</option>
+          <option value="7">Green</option>
+          <option value="8">Red</option>
+          <option value="9">Silver</option>
+          <option value="10">White</option>
+          </select>
+         </section>
+
+         <section class="Dwarf_subR">
+          <lable>Dwarf subrace</lable>
+          <select id="Dwarf_subR">
+          <option value="0">Maybe</option>
+          <option value="1">Any</option>
+          <option value="2">None</option>
+          <option>======</option>
+          <option value="3">Hill</option>
+          <option value="4">Mountain</option>
+          </select>
+         </section>
+
+         <section class="Elf_subR">
+          <lable>Elf subrace</lable>
+          <select id="Elf_subR">
+          <option value="0">Maybe</option>
+          <option value="1">Any</option>
+          <option value="2">None</option>
+          <option>======</option>
+          <option value="3">Dark</option>
+          <option value="4">High</option>
+          <option value="5">Sea</option>
+          <option value="6">Wood</option>
+          </select>
+         </section>
+
+         <section class="Genasi_R">
+          <lable> Genasi Element</lable>
+          <select id="Genasi_R">
+          <option value="0">Any</option>
+          <option>======</option>
+          <option value="1">Air</option>
+          <option value="2">Earth</option>
+          <option value="3">Fire</option>
+          <option value="4">Water</option>
+          </select>
+         </section>
+
+         <section class="Gith_subR">
+          <lable>Gith subrace</lable>
+          <select id="Gith_subR">
+          <option value="0">Maybe</option>
+          <option value="1">Any</option>
+          <option value="2">None</option>
+          <option>======</option>
+          <option value="3">Githyanki</option>
+          <option value="4">Githzerai</option>
+
+          </select>
+         </section>
+
+         <section class="Gnome_subR">
+          <lable>Gnome subrace</lable>
+          <select id="Gnome_subR">
+          <option value="0">Maybe</option>
+          <option value="1">Any</option>
+          <option value="2">None</option>
+          <option>======</option>
+          <option value="3">Forest</option>
+          <option value="4">Rock</option>
+          </select>
+         </section>
+
+         <section class="Half_Elf_R">
+          <lable>Half Elf parent</lable>
+          <select id="Half_Elf_R">
+          <option value="0">Any</option>
+          <option>======</option>
+          <option value="1">General</option>
+          <option value="2">High Elf</option>
+          <option value="3">Wood Elf</option>
+          <option value="4">Dark Elf</option>
+          <option value="5">Sea Elf</option>
+          </select>
+         </section>
+
+         <section class="Halfling_subR">
+          <lable>Halfling subrace</lable>
+          <select id="Halfling_subR">
+          <option value="0">Maybe</option>
+          <option value="1">Add Any</option>
+          <option value="2">Add None</option>
+          <option>======</option>
+          <option value="3">Lightfoot</option>
+          <option value="4">Stout</option>
+          <option value="5">Ghostwise</option>
+          </select>
+         </section>
+
+         <section class="Human_subR">
+          <lable>Human veriant</lable>
+          <select id="Human_subR">
+          <option value="0">Maybe</option>
+          <option value="1">Yes</option>
+          <option value="2">No</option>
+          </select>
+         </section>
+
+         <section class="Shifter_R">
+          <lable>Shifter type</lable>
+          <select id="Shifter_R">
+          <option value="0">Any</option>
+          <option>======</option>
+          <option value="1">Beasthide</option>
+          <option value="2">Longtooth</option>
+          <option value="3">Swiftstride</option>
+          <option value="4">Wildhunt</option>
+          <option value="5">Cliffwalk</option>
+          <option value="6">Razorclaw</option>
+          </select>
+         </section>
+
+         <section class="Tiefling_subR">
+          <lable>Tiefling subrace</lable>
+          <select id="Tiefling_subR">
+          <option value="0">Maybe</option>
+          <option value="1">Add Any</option>
+          <option value="2">Add None</option>
+          <option>======</option>
+          <option value="3">Bloodline of Asmodeus</option>
+          <option value="4">Bloodline of Baalzebul</option>
+          <option value="5">Bloodline of Dispater</option>
+          <option value="6">Bloodline of Fierna</option>
+          <option value="7">Bloodline of Glasya</option>
+          <option value="8">Bloodline of Levistus</option>
+          <option value="9">Bloodline of Mammon</option>
+          <option value="10">Bloodline of Mephistopheles</option>
+          <option value="11">Bloodline of Zariel</option>
+          </select>
+         </section>
+
+         <section class="Warforged_subR">
+          <lable>Warforged subrace</lable>
+          <select id="Warforged_subR">
+          <option value="0">Maybe</option>
+          <option value="1">Add Any</option>
+          <option value="2">Add None</option>
+          <option>======</option>
+          <option value="3">Envoy</option>
+          <option value="4">Juggernaut</option>
+          <option value="5">Skirmisher</option>
+          </select>
+         </section>
+
+         </section>
+        </section>
+        
+         </section>
+       </div>
+
+       <div class="boxs">
+       </div>
+
+       <div class="box">
+        <section class="background_s">
+          <lable>Background</lable>
+          <select id="background_s">
+          <option value="0">Any</option>
+          <option value="1">Acolyte</option>
+          <option value="2">Anthropologist</option>
+          <option value="3">Archaeologist</option>
+          <option value="4">Charlatan</option>
+          <option value="5">City Watch</option>
+          <option value="6">Clan Crafter</option>
+          <option value="7">Cloistered Scholar</option>
+          <option value="8">Courtier</option>
+          <option value="9">Criminal</option>
+          <option value="10">Entertainer</option>
+          <option value="11">Faceless</option>
+          <option value="12">Faction Agent</option>
+          <option value="13">Far Traveler</option>
+          <option value="14">Folk Hero</option>
+          <option value="15">Gladiator</option>
+          <option value="16">Guild Artisan</option>
+          <option value="17">Guild Merchant</option>
+          <option value="18">Haunted One</option>
+          <option value="19">House Agent</option>
+          <option value="20">Hermit</option>
+          <option value="21">Inheritor</option>
+          <option value="22">Investigator</option>
+          <option value="23">Knight</option>
+          <option value="24">Knight of the Order</option>
+          <option value="25">Marine</option>
+          <option value="26">Mercenary Veteran</option>
+          <option value="27">Noble</option>
+          <option value="28">Outlander</option>
+          <option value="29">Pirate</option>
+          <option value="30">Sage</option>
+          <option value="31">Sailor</option>
+          <option value="32">Spy</option>
+          <option value="33">Urban Bounty Hunter</option>
+          <option value="34">Urchin</option>
+          <option value="35">Uthgardt Tribe Member</option>
+          <option value="36">Waterdhavian Noble</option>
+          </select>
+        </div>
+
+        <div class="frame">
+          <input class="btn_r" type="submit" value="Roll">
+        </div>
+        </div>
+        </form>
+
+
+        <div class="scrollable">
+        <ul id="character">
+        </ul>
+        </div>
+
+        <div class="frame">
+          <section class = "Del_b">
+          <input class="btn_d" type="submit" value="Remove?">
+        </section>
+        </div>
+   </section>
+    
+   <!--Denne siste koden gjør at HTML leser JS programet-->
+   <script src="main.js"></script>
+  </body>
+
+  </margin>
+</html>
